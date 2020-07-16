@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OJsEkMq57E9fWffZ4AP+C4+Q2/bzQXX8k2mX3P9C/KLoK+WKTZFwJHtGXtCkSeMGfISD4pO/jxvHtQ+Dt2FHUg==",
+  "dgSpecHash": "J0x3htRCqiGvv3Va4auDWOJT5jol11H00dyQ6mu/hpq1lUm8KOcuoN3yGz6YfG4HG/Cvo6SZP+1KM7/9HHZ/vA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce\\ECommerce.API\\ECommerce.API.csproj",
+  "projectFilePath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\ECommerce.API\\ECommerce.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\atish\\.nuget\\packages\\libuv\\1.9.0\\libuv.1.9.0.nupkg.sha512",
     "C:\\Users\\atish\\.nuget\\packages\\microsoft.aspnetcore.hosting\\1.0.0\\microsoft.aspnetcore.hosting.1.0.0.nupkg.sha512",
@@ -32,6 +32,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric\\7.1.417\\microsoft.servicefabric.7.1.417.nupkg.sha512",
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric.actors\\4.1.417\\microsoft.servicefabric.actors.4.1.417.nupkg.sha512",
     "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric.aspnetcore.abstractions\\4.1.417\\microsoft.servicefabric.aspnetcore.abstractions.4.1.417.nupkg.sha512",
     "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric.aspnetcore.kestrel\\4.1.417\\microsoft.servicefabric.aspnetcore.kestrel.4.1.417.nupkg.sha512",
     "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric.data\\4.1.417\\microsoft.servicefabric.data.4.1.417.nupkg.sha512",

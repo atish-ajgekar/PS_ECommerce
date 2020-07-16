@@ -918,11 +918,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce\\UserActor.Interfaces\\UserActor.Interfaces.csproj",
+      "projectUniqueName": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor.Interfaces\\UserActor.Interfaces.csproj",
       "projectName": "UserActor.Interfaces",
-      "projectPath": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce\\UserActor.Interfaces\\UserActor.Interfaces.csproj",
+      "projectPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor.Interfaces\\UserActor.Interfaces.csproj",
       "packagesPath": "C:\\Users\\atish\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce\\UserActor.Interfaces\\obj\\",
+      "outputPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor.Interfaces\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -976,7 +976,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

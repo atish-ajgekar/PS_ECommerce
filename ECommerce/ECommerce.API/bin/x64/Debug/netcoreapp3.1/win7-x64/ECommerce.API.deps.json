@@ -26,7 +26,9 @@
         "dependencies": {
           "ECommerce.ProductCatalog.Model": "1.0.0",
           "Microsoft.ServiceFabric.AspNetCore.Kestrel": "4.1.417",
+          "Microsoft.ServiceFabric.Services.Remoting": "4.1.417",
           "Newtonsoft.Json": "12.0.3",
+          "UserActor": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -2002,6 +2004,15 @@
           "lib/netstandard2.0/System.Fabric.dll": {}
         }
       },
+      "Microsoft.ServiceFabric.Actors/4.1.417": {
+        "dependencies": {
+          "Microsoft.ServiceFabric.Diagnostics.Internal": "4.1.417",
+          "Microsoft.ServiceFabric.Services.Remoting": "4.1.417"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Actors.dll": {}
+        }
+      },
       "Microsoft.ServiceFabric.AspNetCore.Abstractions/4.1.417": {
         "dependencies": {
           "Microsoft.AspNetCore.Hosting": "1.0.0",
@@ -2811,6 +2822,23 @@
         "compile": {
           "ECommerce.ProductCatalog.Model.dll": {}
         }
+      },
+      "UserActor/1.0.0": {
+        "dependencies": {
+          "Microsoft.ServiceFabric.Actors": "4.1.417",
+          "UserActor.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "UserActor.dll": {}
+        }
+      },
+      "UserActor.Interfaces/1.0.0": {
+        "dependencies": {
+          "Microsoft.ServiceFabric.Actors": "4.1.417"
+        },
+        "compile": {
+          "UserActor.Interfaces.dll": {}
+        }
       }
     },
     ".NETCoreApp,Version=v3.1/win7-x64": {
@@ -2818,7 +2846,9 @@
         "dependencies": {
           "ECommerce.ProductCatalog.Model": "1.0.0",
           "Microsoft.ServiceFabric.AspNetCore.Kestrel": "4.1.417",
+          "Microsoft.ServiceFabric.Services.Remoting": "4.1.417",
           "Newtonsoft.Json": "12.0.3",
+          "UserActor": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -4772,6 +4802,18 @@
           }
         }
       },
+      "Microsoft.ServiceFabric.Actors/4.1.417": {
+        "dependencies": {
+          "Microsoft.ServiceFabric.Diagnostics.Internal": "4.1.417",
+          "Microsoft.ServiceFabric.Services.Remoting": "4.1.417"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ServiceFabric.Actors.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
       "Microsoft.ServiceFabric.AspNetCore.Abstractions/4.1.417": {
         "dependencies": {
           "Microsoft.AspNetCore.Hosting": "1.0.0",
@@ -5617,6 +5659,23 @@
         "runtime": {
           "ECommerce.ProductCatalog.Model.dll": {}
         }
+      },
+      "UserActor/1.0.0": {
+        "dependencies": {
+          "Microsoft.ServiceFabric.Actors": "4.1.417",
+          "UserActor.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "UserActor.dll": {}
+        }
+      },
+      "UserActor.Interfaces/1.0.0": {
+        "dependencies": {
+          "Microsoft.ServiceFabric.Actors": "4.1.417"
+        },
+        "runtime": {
+          "UserActor.Interfaces.dll": {}
+        }
       }
     }
   },
@@ -5831,6 +5890,13 @@
       "sha512": "sha512-8p4A+QED8FUaJsrzBaHk5aMmrAldphLZWjP/QhM6o7KVXChRO6zYQQXCBMgkqtM3rULx+JwqBO7VaueSebWspw==",
       "path": "microsoft.servicefabric/7.1.417",
       "hashPath": "microsoft.servicefabric.7.1.417.nupkg.sha512"
+    },
+    "Microsoft.ServiceFabric.Actors/4.1.417": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BSbf7aTzkSSPuXYfNMVaq2uk18zZ2pfXIhKdl6g/k17iYvs30KhUyGJVBAvg4QSQktLBYntyCb4eoPgIP0xiEg==",
+      "path": "microsoft.servicefabric.actors/4.1.417",
+      "hashPath": "microsoft.servicefabric.actors.4.1.417.nupkg.sha512"
     },
     "Microsoft.ServiceFabric.AspNetCore.Abstractions/4.1.417": {
       "type": "package",
@@ -6512,6 +6578,16 @@
       "hashPath": "system.threading.timer.4.0.1.nupkg.sha512"
     },
     "ECommerce.ProductCatalog.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserActor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserActor.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

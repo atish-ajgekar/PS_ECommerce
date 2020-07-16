@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wS1RoQPoQMaWuPg6QaXjXXyN94h9Vo+oULQv8DgZk/t1BBwYi1UpdGnLY3j1xeLbzBsKhgfRT7hYD4BZRk4C/Q==",
+  "dgSpecHash": "FfSCGA2XLZZXRsYfpjB7xS4tEK1AHbkGY13dcPdl5fxhb/rvXCYeTmfyz59gXE3kSIrbkSHXJHhgVatdvOlSvw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj",
+  "projectFilePath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric\\7.1.417\\microsoft.servicefabric.7.1.417.nupkg.sha512",

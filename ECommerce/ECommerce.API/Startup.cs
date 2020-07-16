@@ -25,6 +25,7 @@ namespace ECommerce.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            //services.AddMvc(option => option.EnableEndpointRouting = false);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,6 +44,12 @@ namespace ECommerce.API
             {
                 endpoints.MapControllers();
             });
+
+            //app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute("products", "{controller = ProductsController}");
+            //    routes.MapRoute("baskets", "{controller = BasketController}");
+            //});
         }
     }
 }

@@ -4,6 +4,6 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.servicefabric.actors\4.1.416\build\netcoreapp2.0\Microsoft.ServiceFabric.Actors.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.servicefabric.actors\4.1.416\build\netcoreapp2.0\Microsoft.ServiceFabric.Actors.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.servicefabric.actors\4.1.417\build\netcoreapp2.0\Microsoft.ServiceFabric.Actors.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.servicefabric.actors\4.1.417\build\netcoreapp2.0\Microsoft.ServiceFabric.Actors.targets')" />
   </ImportGroup>
 </Project>

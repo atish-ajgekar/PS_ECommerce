@@ -6,3 +6,12 @@ C:\Users\atish\source\repos\Service Fabric\ECommerce.ProductCatalog.Model\obj\De
 C:\Users\atish\source\repos\Service Fabric\ECommerce.ProductCatalog.Model\obj\Debug\netstandard2.0\ECommerce.ProductCatalog.Model.csproj.CoreCompileInputs.cache
 C:\Users\atish\source\repos\Service Fabric\ECommerce.ProductCatalog.Model\obj\Debug\netstandard2.0\ECommerce.ProductCatalog.Model.dll
 C:\Users\atish\source\repos\Service Fabric\ECommerce.ProductCatalog.Model\obj\Debug\netstandard2.0\ECommerce.ProductCatalog.Model.pdb
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.ProductCatalog.Model\bin\Debug\netstandard2.0\ECommerce.ProductCatalog.Model.deps.json
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.ProductCatalog.Model\bin\Debug\netstandard2.0\ECommerce.ProductCatalog.Model.dll
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.ProductCatalog.Model\bin\Debug\netstandard2.0\ECommerce.ProductCatalog.Model.pdb
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\netstandard2.0\ECommerce.ProductCatalog.Model.csprojAssemblyReference.cache
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\netstandard2.0\ECommerce.ProductCatalog.Model.AssemblyInfoInputs.cache
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\netstandard2.0\ECommerce.ProductCatalog.Model.AssemblyInfo.cs
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\netstandard2.0\ECommerce.ProductCatalog.Model.csproj.CoreCompileInputs.cache
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\netstandard2.0\ECommerce.ProductCatalog.Model.dll
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.ProductCatalog.Model\obj\Debug\netstandard2.0\ECommerce.ProductCatalog.Model.pdb

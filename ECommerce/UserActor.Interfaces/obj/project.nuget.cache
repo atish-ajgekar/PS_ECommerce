@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fHDn58m8xnFQi2vpLxBpvS40C0floNvoUx/RmdnS4IpZXNAqF1kYT6IA5fi/DsLoUZKKQoPNV3paIGGCZUREzQ==",
+  "dgSpecHash": "A0wAd1yxuV7XH04tJw7RVyzUWOuprJ10Dqv4WXsCggV6Wj2s24m4xb6d7iXohFhDyrb+L2kcjjxOAKppSFLfMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce\\UserActor.Interfaces\\UserActor.Interfaces.csproj",
+  "projectFilePath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor.Interfaces\\UserActor.Interfaces.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric\\7.1.416\\microsoft.servicefabric.7.1.416.nupkg.sha512",
     "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric.actors\\4.1.416\\microsoft.servicefabric.actors.4.1.416.nupkg.sha512",

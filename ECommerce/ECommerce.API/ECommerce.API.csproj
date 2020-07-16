@@ -18,18 +18,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Controllers\BasketController.cs" />
-    <Compile Remove="Model\ApiBasket.cs" />
-    <Compile Remove="Model\ApiBasketAddRequest.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.ServiceFabric.AspNetCore.Kestrel" Version="4.1.417" />
+    <PackageReference Include="Microsoft.ServiceFabric.Services.Remoting" Version="4.1.417" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\ECommerce.ProductCatalog.Model\ECommerce.ProductCatalog.Model.csproj" />
+    <ProjectReference Include="..\UserActor\UserActor.csproj" />
   </ItemGroup>
 
 

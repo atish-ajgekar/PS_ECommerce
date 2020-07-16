@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce\\ECommerce.API\\ECommerce.API.csproj": {}
+    "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\ECommerce.API\\ECommerce.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj": {
+    "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj",
+        "projectUniqueName": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj",
         "projectName": "ECommerce.ProductCatalog.Model",
-        "projectPath": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj",
+        "projectPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj",
         "packagesPath": "C:\\Users\\atish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce.ProductCatalog.Model\\obj\\",
+        "outputPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.ProductCatalog.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce\\ECommerce.API\\ECommerce.API.csproj": {
+    "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\ECommerce.API\\ECommerce.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce\\ECommerce.API\\ECommerce.API.csproj",
+        "projectUniqueName": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\ECommerce.API\\ECommerce.API.csproj",
         "projectName": "ECommerce.API",
-        "projectPath": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce\\ECommerce.API\\ECommerce.API.csproj",
+        "projectPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\ECommerce.API\\ECommerce.API.csproj",
         "packagesPath": "C:\\Users\\atish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce\\ECommerce.API\\obj\\",
+        "outputPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\ECommerce.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -100,8 +100,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj": {
-                "projectPath": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj"
+              "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj": {
+                "projectPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj"
+              },
+              "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor\\UserActor.csproj": {
+                "projectPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor\\UserActor.csproj"
               }
             }
           }
@@ -116,6 +119,10 @@
         "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.ServiceFabric.AspNetCore.Kestrel": {
+              "target": "Package",
+              "version": "[4.1.417, )"
+            },
+            "Microsoft.ServiceFabric.Services.Remoting": {
               "target": "Package",
               "version": "[4.1.417, )"
             },
@@ -152,6 +159,164 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor.Interfaces\\UserActor.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor.Interfaces\\UserActor.Interfaces.csproj",
+        "projectName": "UserActor.Interfaces",
+        "projectPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor.Interfaces\\UserActor.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\atish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.ServiceFabric.Actors": {
+              "target": "Package",
+              "version": "[4.1.416, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor\\UserActor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor\\UserActor.csproj",
+        "projectName": "UserActor",
+        "projectPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor\\UserActor.csproj",
+        "packagesPath": "C:\\Users\\atish\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\atish\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor.Interfaces\\UserActor.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\UserActor.Interfaces\\UserActor.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.ServiceFabric.Actors": {
+              "target": "Package",
+              "version": "[4.1.417, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

@@ -47,19 +47,24 @@ namespace UserActor
             }
         }
 
-        public async Task<Dictionary<Guid, int>> GetBasket()
+        public async Task<BasketItem[]> GetBasket()
         {
-            var result = new Dictionary<Guid, int>();
+            var result = new List<BasketItem>();
 
             IEnumerable<string> productIDs = await StateManager.GetStateNamesAsync();
 
             foreach (string productId in productIDs)
             {
                 int quantity = await StateManager.GetStateAsync<int>(productId);
-                result[new Guid(productId)] = quantity;
+                result.Add(
+                   new BasketItem
+                   {
+                       ProductId = new Guid(productId),
+                       Quantity = quantity
+                   });
             }
 
-            return result;
+            return result.ToArray();
         }
 
 
@@ -79,25 +84,5 @@ namespace UserActor
             return this.StateManager.TryAddStateAsync("count", 0);
         }
 
-        /// <summary>
-        /// TODO: Replace with your own actor method.
-        /// </summary>
-        /// <returns></returns>
-        Task<int> IUserActor.GetCountAsync(CancellationToken cancellationToken)
-        {
-            return this.StateManager.GetStateAsync<int>("count", cancellationToken);
-        }
-
-        /// <summary>
-        /// TODO: Replace with your own actor method.
-        /// </summary>
-        /// <param name="count"></param>
-        /// <returns></returns>
-        Task IUserActor.SetCountAsync(int count, CancellationToken cancellationToken)
-        {
-            // Requests are not guaranteed to be processed in order nor at most once.
-            // The update function here verifies that the incoming count is greater than the current count to preserve order.
-            return this.StateManager.AddOrUpdateStateAsync("count", count, (key, value) => count > value ? count : value, cancellationToken);
-        }
     }
 }

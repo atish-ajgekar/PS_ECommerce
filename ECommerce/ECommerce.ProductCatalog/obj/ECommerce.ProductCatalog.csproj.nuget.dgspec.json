@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce\\ECommerce.ProductCatalog\\ECommerce.ProductCatalog.csproj": {}
+    "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\ECommerce.ProductCatalog\\ECommerce.ProductCatalog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj": {
+    "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj",
+        "projectUniqueName": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj",
         "projectName": "ECommerce.ProductCatalog.Model",
-        "projectPath": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj",
+        "projectPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj",
         "packagesPath": "C:\\Users\\atish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce.ProductCatalog.Model\\obj\\",
+        "outputPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.ProductCatalog.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce\\ECommerce.ProductCatalog\\ECommerce.ProductCatalog.csproj": {
+    "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\ECommerce.ProductCatalog\\ECommerce.ProductCatalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce\\ECommerce.ProductCatalog\\ECommerce.ProductCatalog.csproj",
+        "projectUniqueName": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\ECommerce.ProductCatalog\\ECommerce.ProductCatalog.csproj",
         "projectName": "ECommerce.ProductCatalog",
-        "projectPath": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce\\ECommerce.ProductCatalog\\ECommerce.ProductCatalog.csproj",
+        "projectPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\ECommerce.ProductCatalog\\ECommerce.ProductCatalog.csproj",
         "packagesPath": "C:\\Users\\atish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce\\ECommerce.ProductCatalog\\obj\\",
+        "outputPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\ECommerce.ProductCatalog\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -100,8 +100,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj": {
-                "projectPath": "C:\\Users\\atish\\source\\repos\\Service Fabric\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj"
+              "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj": {
+                "projectPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj"
               }
             }
           }
