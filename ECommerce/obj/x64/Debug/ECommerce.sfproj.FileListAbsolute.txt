@@ -1,0 +1,2 @@
+C:\Users\atish\OneDrive\ATISH\Development\Pluralsight\Service Fabric\ECommerce\obj\x64\Debug\ECommerce.sfproj.CoreCompileInputs.cache
+C:\Users\atish\source\repos\Service Fabric\ECommerce\obj\x64\Debug\ECommerce.sfproj.CoreCompileInputs.cache

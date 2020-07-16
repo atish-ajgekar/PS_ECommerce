@@ -1,0 +1,5 @@
+C:\Users\atish\source\repos\Service Fabric\ECommerce\UserActor\bin\Debug\netcoreapp3.1\win7-x64\UserActor.Interfaces.dll
+C:\Users\atish\source\repos\Service Fabric\ECommerce\UserActor\obj\Debug\netcoreapp3.1\win7-x64\UserActor.AssemblyInfoInputs.cache
+C:\Users\atish\source\repos\Service Fabric\ECommerce\UserActor\obj\Debug\netcoreapp3.1\win7-x64\UserActor.AssemblyInfo.cs
+C:\Users\atish\source\repos\Service Fabric\ECommerce\UserActor\obj\Debug\netcoreapp3.1\win7-x64\UserActor.csprojAssemblyReference.cache
+C:\Users\atish\source\repos\Service Fabric\ECommerce\UserActor\obj\Debug\netcoreapp3.1\win7-x64\UserActor.csproj.CoreCompileInputs.cache
