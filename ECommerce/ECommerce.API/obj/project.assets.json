@@ -1851,6 +1851,20 @@
           "ref/netstandard1.2/System.Threading.Timer.dll": {}
         }
       },
+      "ECommerce.CheckoutService.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "ECommerce.ProductCatalog.Model": "1.0.0",
+          "Microsoft.ServiceFabric.Services.Remoting": "4.1.417"
+        },
+        "compile": {
+          "bin/placeholder/ECommerce.CheckoutService.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ECommerce.CheckoutService.Model.dll": {}
+        }
+      },
       "ECommerce.ProductCatalog.Model/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -3779,6 +3793,20 @@
         },
         "compile": {
           "ref/netstandard1.2/System.Threading.Timer.dll": {}
+        }
+      },
+      "ECommerce.CheckoutService.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "ECommerce.ProductCatalog.Model": "1.0.0",
+          "Microsoft.ServiceFabric.Services.Remoting": "4.1.417"
+        },
+        "compile": {
+          "bin/placeholder/ECommerce.CheckoutService.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ECommerce.CheckoutService.Model.dll": {}
         }
       },
       "ECommerce.ProductCatalog.Model/1.0.0": {
@@ -8343,6 +8371,11 @@
         "system.threading.timer.nuspec"
       ]
     },
+    "ECommerce.CheckoutService.Model/1.0.0": {
+      "type": "project",
+      "path": "../../ECommerce.CheckoutService.Model/ECommerce.CheckoutService.Model.csproj",
+      "msbuildProject": "../../ECommerce.CheckoutService.Model/ECommerce.CheckoutService.Model.csproj"
+    },
     "ECommerce.ProductCatalog.Model/1.0.0": {
       "type": "project",
       "path": "../../ECommerce.ProductCatalog.Model/ECommerce.ProductCatalog.Model.csproj",
@@ -8361,6 +8394,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "ECommerce.CheckoutService.Model >= 1.0.0",
       "ECommerce.ProductCatalog.Model >= 1.0.0",
       "Microsoft.ServiceFabric.AspNetCore.Kestrel >= 4.1.417",
       "Microsoft.ServiceFabric.Services.Remoting >= 4.1.417",
@@ -8403,6 +8437,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.CheckoutService.Model\\ECommerce.CheckoutService.Model.csproj": {
+              "projectPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.CheckoutService.Model\\ECommerce.CheckoutService.Model.csproj"
+            },
             "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj": {
               "projectPath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce.ProductCatalog.Model\\ECommerce.ProductCatalog.Model.csproj"
             },

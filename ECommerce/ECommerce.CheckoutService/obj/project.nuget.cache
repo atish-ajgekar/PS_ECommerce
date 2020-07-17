@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "dgSpecHash": "lXoznZOFoHEicOHuu1uvkkEGKeW4rGsNNV2nJ1AI7sfT1It168gGeqkhg4OLJu6gtO7qprIZZiOJcOC0TcGZNQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\atish\\source\\repos\\PS_ECommerce\\ECommerce\\ECommerce.CheckoutService\\ECommerce.CheckoutService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric\\7.1.417\\microsoft.servicefabric.7.1.417.nupkg.sha512",
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric.actors\\4.1.416\\microsoft.servicefabric.actors.4.1.416.nupkg.sha512",
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric.data\\4.1.417\\microsoft.servicefabric.data.4.1.417.nupkg.sha512",
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric.data.extensions\\4.1.417\\microsoft.servicefabric.data.extensions.4.1.417.nupkg.sha512",
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric.data.interfaces\\4.1.417\\microsoft.servicefabric.data.interfaces.4.1.417.nupkg.sha512",
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric.diagnostics.internal\\4.1.417\\microsoft.servicefabric.diagnostics.internal.4.1.417.nupkg.sha512",
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric.fabrictransport.internal\\4.1.417\\microsoft.servicefabric.fabrictransport.internal.4.1.417.nupkg.sha512",
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric.services\\4.1.417\\microsoft.servicefabric.services.4.1.417.nupkg.sha512",
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.servicefabric.services.remoting\\4.1.417\\microsoft.servicefabric.services.remoting.4.1.417.nupkg.sha512",
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.0\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.0.nupkg.sha512",
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.0\\microsoft.netcore.app.runtime.win-x64.3.1.0.nupkg.sha512",
+    "C:\\Users\\atish\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.0\\microsoft.aspnetcore.app.runtime.win-x64.3.1.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Microsoft.ServiceFabric.Actors 4.1.416 requires Microsoft.ServiceFabric.Services.Remoting (= 4.1.416) but version Microsoft.ServiceFabric.Services.Remoting 4.1.417 was resolved.",
+      "libraryId": "Microsoft.ServiceFabric.Services.Remoting",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1",
+        ".NETCoreApp,Version=v3.1/win7-x64"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Microsoft.ServiceFabric.Actors 4.1.416 requires Microsoft.ServiceFabric.Diagnostics.Internal (= 4.1.416) but version Microsoft.ServiceFabric.Diagnostics.Internal 4.1.417 was resolved.",
+      "libraryId": "Microsoft.ServiceFabric.Diagnostics.Internal",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1",
+        ".NETCoreApp,Version=v3.1/win7-x64"
+      ]
+    }
+  ]
+}

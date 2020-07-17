@@ -1,0 +1,12 @@
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.CheckoutService.Model\bin\Debug\netstandard2.0\ECommerce.CheckoutService.Model.deps.json
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.CheckoutService.Model\bin\Debug\netstandard2.0\ECommerce.CheckoutService.Model.dll
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.CheckoutService.Model\bin\Debug\netstandard2.0\ECommerce.CheckoutService.Model.pdb
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.CheckoutService.Model\bin\Debug\netstandard2.0\ECommerce.ProductCatalog.Model.dll
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.CheckoutService.Model\bin\Debug\netstandard2.0\ECommerce.ProductCatalog.Model.pdb
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.CheckoutService.Model\obj\Debug\netstandard2.0\ECommerce.CheckoutService.Model.csprojAssemblyReference.cache
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.CheckoutService.Model\obj\Debug\netstandard2.0\ECommerce.CheckoutService.Model.AssemblyInfoInputs.cache
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.CheckoutService.Model\obj\Debug\netstandard2.0\ECommerce.CheckoutService.Model.AssemblyInfo.cs
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.CheckoutService.Model\obj\Debug\netstandard2.0\ECommerce.CheckoutService.Model.csproj.CoreCompileInputs.cache
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.CheckoutService.Model\obj\Debug\netstandard2.0\ECommerce.CheckoutService.Model.csproj.CopyComplete
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.CheckoutService.Model\obj\Debug\netstandard2.0\ECommerce.CheckoutService.Model.dll
+C:\Users\atish\source\repos\PS_ECommerce\ECommerce.CheckoutService.Model\obj\Debug\netstandard2.0\ECommerce.CheckoutService.Model.pdb
